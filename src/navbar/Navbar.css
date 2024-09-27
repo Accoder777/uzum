@@ -1,0 +1,51 @@
+.Nav{
+    display: flex;
+    gap: 20px;
+}
+
+.Uzum{
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    height: 200vh;
+    border-radius: 1px solid red;
+    font-family: sans-serif;
+}
+
+.btn1{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: purple;
+    color: white;
+    transition: 1s;
+}
+
+.btn1:hover{
+    margin-top: 20px;
+    transition: 1s;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: purple;
+}
+
+.btn2{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.uzum{
+    color: purple;
+}
+
+.write{
+    font-size: 20px;
+}
+        
