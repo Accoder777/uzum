@@ -1,16 +1,16 @@
 import React from "react";
 import { useGetTrendingMovieQuery } from "./features/movie/movieApi";
 import "./styles/App.css";
+import Router from "./routes/Router";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
-  // API
-  const trendingMovieRes = useGetTrendingMovieQuery("all");
-  console.log("🚀 ~ App ~ trendingMovieRes:", trendingMovieRes);
-
   return (
-    <div>
-      Hello
-    </div>
+    <>
+      <BrowserRouter>
+        <Router/>
+      </BrowserRouter>
+    </>
   );
 };
 
